@@ -1,0 +1,18 @@
+
+$mapRedes:(facebook:red, instagran:blue, twitter:yellow);
+
+@each $redSocial, $color in $mapRedes {
+    .#{$redSocial} {
+      color: $color;  
+    }
+
+}
+
+/*map get*/
+
+$estilo: (color:blue, tamFuente: 30px, ali: center);
+
+.messi{
+    background-color: map-get($estilo, color );
+    font-size: map-get($estilo , tamFuente);
+}
