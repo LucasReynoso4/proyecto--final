@@ -27,9 +27,8 @@ p {
 }
 
 footer {
-  padding-top: 2rem;
+  padding: 40px 0;
   background-color: black;
-  grid-area: footer;
 }
 
 h4 {
