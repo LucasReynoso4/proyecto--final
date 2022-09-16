@@ -19,20 +19,34 @@ h1 {
   text-align: center;
   text-decoration: underline;
   color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.7rem;
+h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .itemUno {
   position: fixed;
   bottom: 19px;
-  right: 30px;
-  width: 55px;
-  height: 55px;
+  right: 5px;
+}
+
+img {
+  width: 90px;
 }
 
 .logo {
