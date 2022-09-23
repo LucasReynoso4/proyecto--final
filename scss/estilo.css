@@ -33,6 +33,11 @@ h3 {
   text-align: center;
 }
 
+.pizzaimg {
+  height: 100%;
+  width: 100%;
+}
+
 .parrafo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5rem;
@@ -43,6 +48,7 @@ h3 {
   position: fixed;
   bottom: 19px;
   right: 5px;
+  z-index: 1;
 }
 
 img {
